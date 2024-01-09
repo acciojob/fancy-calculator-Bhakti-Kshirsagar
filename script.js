@@ -1,4 +1,5 @@
 //your JS code here. If required.
-let x = prompt(First Input);
-let y = prompt(Second Input);
-console.log(x+y)
+let x = prompt();
+let y = prompt();
+let result = Number(x) * 2 + Number (y);
+alert("The final result is: " + result);
